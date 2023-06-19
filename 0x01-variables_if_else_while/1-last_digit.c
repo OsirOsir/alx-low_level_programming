@@ -4,10 +4,14 @@
 
 /**
  * main - Entry point of the program
- * Return- 0 (Success execution)
+ *
+ * This program generates a random number, computes its last digit, and displays information
+ * about the last digit.
+ *
+ * return - 0 (success)
  */
 
-int main(void)
+ int main(void)
 {
 	int n;
 
