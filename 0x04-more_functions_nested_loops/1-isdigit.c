@@ -6,7 +6,7 @@
  * Return: 1 for character or 0 for any else
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
