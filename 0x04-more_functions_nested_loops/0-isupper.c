@@ -2,18 +2,21 @@
 
 /**
  * _isupper - check if a latter is upper
- * @c: The number to be checked
- * Return: (1) for upper letter or (0) for any else
+ *
+ * @c: input character
+ *
+ * Return: (1) for true (0) false
+ *
  */
 
-int_isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-	return (1);
+		return (1);
 	}
 	else
 	{
-	return (0);
+		return (0);
 	}
 }
