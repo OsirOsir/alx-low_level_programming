@@ -12,17 +12,17 @@ char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
-		char * | = haystack;
-		char *p = needle;
+		char *one = haystack;
+		char *two = needle;
 
-		while (*| == *p && *p != '\0')
+		while (*one == *teo && *two != '\0')
 		{
-			|++;
-			p++;
+			one++;
+			two++;
 		}
 
-		if (*p == '\0')
+		if (*two == '\0')
 			return (haystack);
 	}
-	return (0);
+	return (NUL);
 }
