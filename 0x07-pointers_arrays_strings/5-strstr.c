@@ -16,7 +16,7 @@ char *_strstr(char *haystack, char *needle)
 		char *one = haystack;
 		char *two = needle;
 
-		while (*one == *teo && *two != '\0')
+		while (*one == *two && *two != '\0')
 		{
 			one++;
 			two++;
@@ -25,5 +25,5 @@ char *_strstr(char *haystack, char *needle)
 		if (*two == '\0')
 			return (haystack);
 	}
-	return (NUL);
+	return (NULL);
 }
