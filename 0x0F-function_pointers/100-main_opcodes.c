@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+
 
 /**
  * main - prints own opcodes
  * @argc: number of arguments
  * @argv: Array of arguments
- *
  * Return: Always 0 (Success)
  */
 
